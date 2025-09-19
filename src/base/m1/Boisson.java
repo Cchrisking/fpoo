@@ -3,7 +3,7 @@ package base.m1;
 public class Boisson {
     private double degreAlcool;
     // est modificqteur ?
-    public double degre()
+  /*  public double degre()
     {
         return degre;
     }
@@ -27,4 +27,6 @@ public class Boisson {
     {
         degreAlcool = d;
     }
+*/
 }
+

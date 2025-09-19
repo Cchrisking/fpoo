@@ -24,6 +24,18 @@ public class Rectangle {
         this.surface = largeur * hauteur;
     }
     public double getSurface() {
-        return surface;
+
+      return surface;
     }
+    public boolean equals(Rectangle rectangle) {
+      if(rectangle == null){
+          return false;
+      }else{
+        return this.hauteur ==  rectangle.hauteur && this.largeur == rectangle.largeur;
+      }
+    }
+  @Override
+  public String toString(){
+      return "LARGEU "+ this.largeur + " HAUTEUR "+ this.hauteur;
+  }
 }
